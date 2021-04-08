@@ -1,0 +1,244 @@
+body nav {
+  background-color: #20639B;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+body nav ul {
+  margin-bottom: 0px;
+}
+
+body nav ul li {
+  list-style-type: none;
+  margin: 1% 3%;
+}
+
+body nav ul li a {
+  color: #fff;
+}
+
+body nav ul li a:hover {
+  color: #3caea3;
+  text-decoration: none;
+}
+
+body #main .blogSection {
+  margin-top: 10%;
+  width: 100%;
+  margin-left: 0px;
+}
+
+body #main .blogSection .blog {
+  width: 30%;
+  padding: 0% 2%;
+  margin:2% 0%;
+}
+
+body #main .blogSection .blog h3 a {
+  text-decoration: none;
+  color: #20639B;
+}
+
+body #main .blogSection .blog h3 a:hover {
+  color: #3caea3;
+}
+
+body #main .blogSection .blog button {
+  border: none;
+  background-color: #20639B;
+  color: #fff;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+body #main .blogSection .blog button:hover {
+  background-color: #3caea3;
+  color: #fff;
+}
+
+body #main .blogSection .blog h5 {
+  margin-top: 15px;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+body #main .blogSection .blog h5 label {
+  font-weight: 700;
+  color: #20639B;
+}
+
+body #main .details h3 {
+  margin: 2% 0%;
+}
+
+body #main .details h5 {
+  margin: 2% 0%;
+}
+
+body #main .formSection {
+  margin-top: 15%;
+}
+
+body #main .formSection .login form {
+  margin: 3% 0%;
+  width: 100%;
+}
+
+body #main .formSection .login form input {
+  margin: 10px 0px;
+  padding: 1%;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid #20639B;
+}
+
+body #main .formSection .login form #picture {
+  border: none;
+  width: 25%;
+}
+#pictureUpdate{
+    border: none !important;
+    width: 25% !important;
+}
+body #main .formSection .login form textarea {
+  margin: 10px 0px;
+  padding: 1%;
+  color: #fff;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid #20639B;
+}
+
+body #main .formSection .login form #loginSubmit {
+  background-color: #20639B;
+  border: none;
+  color:#fff;
+  border-radius: 10px;
+  width: 25%;
+}
+#createBlogSubmit{
+    background-color: #20639B;
+    border: none !important;
+    color:#fff;
+    border-radius: 10px;
+    width: 25% !important;
+}
+#createBlogSubmit:hover {
+    background-color: #3caea3;
+}
+#descCreate {
+    color:#000 !important;
+}
+#descUpdate{
+    color:#000 !important;
+}
+#blogUpdateSubmit{
+    background-color: #20639B;
+    border: none !important;
+    color:#fff;
+    border-radius: 10px;
+    width: 25% !important;
+}
+#blogUpdateSubmit:hover{
+    background-color: #3caea3;
+}
+body #main .formSection .login form #loginSubmit:hover {
+  background-color: #3caea3;
+}
+
+body #main .formSection .login form #registerSubmit {
+  background-color: #20639B;
+  border: none;
+  color:#fff;
+  border-radius: 10px;
+  width: 25%;
+}
+
+body #main .formSection .login form #registerSubmit:hover {
+  background-color: #3caea3;
+}
+
+body #main #adminNav .adminButtons {
+  margin: 3% 0%;
+}
+
+body #main #adminNav .adminButtons a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 40px;
+  margin: 5px;
+  background-color: #20639B;
+  border-radius: 10px;
+}
+
+body #main #adminNav .adminButtons a:hover {
+  background-color: #3caea3;
+}
+
+body #main #adminBlogs .userBlogs {
+  padding: 2%;
+}
+
+body #main #adminBlogs .userBlogs:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+body #main #adminBlogs .userBlogs .row .blogsAdminRes {
+  margin: 5px 0px;
+}
+
+body #main #adminBlogs .userBlogs .row .blogsAdminRes .imgBlogAdmin {
+  width: 150px;
+}
+
+body #main #adminBlogs .userBlogs .row .blogsAdminRes figure {
+  margin-bottom: 0px;
+}
+
+body #main #adminBlogs .userBlogs .row .blogsAdminRes button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #20639B;
+  color: #fff;
+}
+
+body #main #adminBlogs .userBlogs .row .blogsAdminRes button:hover {
+  background-color: #3caea3;
+}
+
+body #main #adminUsers .userBlogs {
+  padding: 2%;
+}
+
+body #main #adminUsers .userBlogs:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+body #main #adminUsers .userBlogs .row .blogsAdminRes {
+  margin: 5px 0px;
+}
+
+body #main #adminUsers .userBlogs .row .blogsAdminRes .imgBlogAdmin {
+  width: 50px;
+}
+
+body #main #adminUsers .userBlogs .row .blogsAdminRes figure {
+  margin-bottom: 0px;
+}
+
+body #main #adminUsers .userBlogs .row .blogsAdminRes button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #20639B;
+  color: #fff;
+}
+
+body #main #adminUsers .userBlogs .row .blogsAdminRes button:hover {
+  background-color: #3caea3;
+}
+/*# sourceMappingURL=style.css.map */
